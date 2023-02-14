@@ -7,19 +7,17 @@
     <title>Document</title>
 
     <h1>
-        Encabezado
+        HTML FORMS
     </h1>
 
 </head>
 
 <body>
-    <h2>HTML FORMS</h2>
-    <form action="/action_page.php">
-        <label for="fname">cual es tu nombre?</label>
-        <br>
-        <input type="text" id="name" name="name">
-        <br>
-        <input type="submit" value="submit">
+    <h2>Validacion de telefono</h2>
+    <form>
+        <label for="name">Nombre:</label>
+    <input type="text" id="name" name="name" pattern="\d{9}" required placeholder="Ej.12345678-A o X-12345678"><br>
+    <input type="submit">
     </form>
 </body>
 
